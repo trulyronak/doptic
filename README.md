@@ -15,13 +15,9 @@
 
 simply add an alias (or add to your `PATH` if you wanna be fancy.
 
-	alias doptic='docker run -v $(pwd):/home/userworkspace opticcli'
+alias doptic='docker run --env DEBUG  -v $(pwd):/home/userworkspace opticcli'
 	
 note that this lets the directory to always be the current one
-
-### Wait, none of the commands work
-
-Yep, there's currently an X11 Forwarding issue going on
 
 ### I want to debug around
 
