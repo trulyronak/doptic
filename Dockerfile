@@ -10,8 +10,6 @@ RUN apt update && \
 # optic api port
 EXPOSE 34444 34444
 
-# set the port that your api runs on here
-EXPOSE 3000 3000
 WORKDIR /home/userworkspace
 
 # Debug mode
